@@ -39,7 +39,7 @@
         {
           "type": "git",
           "url": "https://github.com/edfloreshz/tasks.git",
-          "commit": "913ed344f7483fb8cb1ec8853380254ecf5d6d01"
+          "commit": "ad776a6c4f3664b067230be21dea0e32f0e4707e"
         },
         "cargo-sources.json"
       ]
