@@ -5,7 +5,9 @@
   "base": "com.system76.Cosmic.BaseApp",
   "base-version": "stable",
   "sdk": "org.freedesktop.Sdk",
-  "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Extension.rust-stable"
+  ],
   "command": "tasks",
   "finish-args": [
     "--share=ipc",
@@ -39,7 +41,7 @@
         {
           "type": "git",
           "url": "https://github.com/edfloreshz/tasks.git",
-          "commit": "54dd74a5fe90b1df3fef735e5c308da258587e74"
+          "commit": "92c740512f18625d70fea21443df060be4853cc2"
         },
         "cargo-sources.json"
       ]
