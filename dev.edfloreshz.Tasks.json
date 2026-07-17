@@ -41,7 +41,7 @@
         {
           "type": "git",
           "url": "https://github.com/edfloreshz/tasks.git",
-          "commit": "6d368015f6b2a14e8906b8edc6a2f3af958aa43b"
+          "commit": "46fcb08085c1e0e10cb8fe7498f16001a1abb5b2"
         },
         "cargo-sources.json"
       ]
