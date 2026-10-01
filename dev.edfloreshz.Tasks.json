@@ -1,7 +1,7 @@
 {
   "app-id": "dev.edfloreshz.Tasks",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "25.08",
+  "runtime-version": "26.08",
   "base": "com.system76.Cosmic.BaseApp",
   "base-version": "stable",
   "sdk": "org.freedesktop.Sdk",
@@ -41,7 +41,7 @@
         {
           "type": "git",
           "url": "https://github.com/edfloreshz/tasks.git",
-          "commit": "46fcb08085c1e0e10cb8fe7498f16001a1abb5b2"
+          "commit": "8179bbf2ca6471a5ecdcfc4586f04be04c437969"
         },
         "cargo-sources.json"
       ]
