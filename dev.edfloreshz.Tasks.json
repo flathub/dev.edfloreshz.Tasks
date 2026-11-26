@@ -35,15 +35,15 @@
         "cargo --offline fetch --manifest-path Cargo.toml --verbose",
         "cargo --offline build --release --verbose",
         "install -Dm0755 ./target/release/tasks /app/bin/tasks",
-        "install -Dm0644 ./res/dev.edfloreshz.Tasks.desktop /app/share/applications/dev.edfloreshz.Tasks.desktop",
-        "install -Dm0644 ./res/dev.edfloreshz.Tasks.metainfo.xml /app/share/metainfo/dev.edfloreshz.Tasks.metainfo.xml",
-        "install -Dm0644 ./res/icons/hicolor/scalable/apps/dev.edfloreshz.Tasks.svg /app/share/icons/hicolor/scalable/apps/dev.edfloreshz.Tasks.svg"
+        "install -Dm0644 ./target/xdgen/app.desktop /app/share/applications/dev.edfloreshz.Tasks.desktop",
+        "install -Dm0644 ./target/xdgen/app.metainfo.xml /app/share/metainfo/dev.edfloreshz.Tasks.metainfo.xml",
+        "install -Dm0644 ./resources/icons/hicolor/scalable/apps/icon.svg /app/share/icons/hicolor/scalable/apps/dev.edfloreshz.Tasks.svg"
       ],
       "sources": [
         {
           "type": "git",
           "url": "https://github.com/edfloreshz/tasks.git",
-          "commit": "521c67840bf37a7545371aef39222d5d2a0d05c8"
+          "commit": "0e1bc2e7e803af461dba51c5c4f5cff0c225a27f"
         },
         "cargo-sources.json"
       ]
